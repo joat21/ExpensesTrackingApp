@@ -5,7 +5,7 @@ import NewCost from "./components/NewCost/NewCost";
 const INITIAL_COSTS = [
   {
     id: 'c1',
-    date: new Date(2021, 2, 12),
+    date: new Date(2020, 2, 12),
     desc: "Холодильник",
     amount: 999.99
   },
@@ -17,9 +17,15 @@ const INITIAL_COSTS = [
   },
   {
     id: 'c3',
-    date: new Date(2021, 3, 1),
+    date: new Date(2023, 3, 1),
     desc: "Джинсы",
     amount: 49.99
+  },
+  {
+    id: 'c4',
+    date: new Date(2021, 6, 27),
+    desc: "Телефон",
+    amount: 500
   }
 ];
 
